@@ -15,13 +15,18 @@ This project demonstrates the implementation of task scheduling and API response
 
 ---
 
+
 ## Technologies Used
 
-* Laravel
+* Laravel 12
 * PHP 8.2+
-* MySQL
+* SQLite
 * Redis
 * OpenWeatherMap API
+* Laravel Task Scheduler
+* Laravel Cache
+* Predis
+
 
 ---
 
@@ -30,7 +35,7 @@ This project demonstrates the implementation of task scheduling and API response
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/justPoly/task-scheduler.git
 cd task-scheduler
 ```
 
