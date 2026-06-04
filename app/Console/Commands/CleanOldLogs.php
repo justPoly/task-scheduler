@@ -8,23 +8,10 @@ use Carbon\Carbon;
 
 class CleanOldLogs extends Command
 {
-    /**
-     * The name and signature of the console command.
-     *
-     * @var string
-     */
-    protected $signature = 'app:clean-old-logs';
+    protected $signature = 'logs:clean';
 
-    /**
-     * The console command description.
-     *
-     * @var string
-     */
-    protected $description = 'Command description';
+    protected $description = 'Delete logs older than 30 days';
 
-    /**
-     * Execute the console command.
-     */
     public function handle()
     {
         ApiLog::where('created_at', '<', Carbon::now()->subDays(30))->delete();
