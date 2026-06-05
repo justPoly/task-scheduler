@@ -362,4 +362,3 @@ php artisan schedule:run
 **Polycarp Atalor**
 
 * Email: [polycarpatalor@gmail.com](mailto:polycarpatalor@gmail.com)
-* LinkedIn: https://www.linkedin.com/in/polyatal/
